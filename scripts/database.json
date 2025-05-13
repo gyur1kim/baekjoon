@@ -2900,27 +2900,6 @@
         "averageTries": 3.463,
         "tags": [
             {
-                "key": "case_work",
-                "bojTagId": 137,
-                "displayNames": [
-                    {
-                        "language": "ko",
-                        "name": "많은 조건 분기",
-                        "short": "많은 조건 분기"
-                    },
-                    {
-                        "language": "en",
-                        "name": "case work",
-                        "short": "case work"
-                    },
-                    {
-                        "language": "ja",
-                        "name": "ケースワーク",
-                        "short": "ケースワーク"
-                    }
-                ]
-            },
-            {
                 "key": "implementation",
                 "bojTagId": 102,
                 "displayNames": [
@@ -6602,6 +6581,27 @@
                         "short": "impl"
                     }
                 ]
+            },
+            {
+                "key": "bruteforcing",
+                "bojTagId": 125,
+                "displayNames": [
+                    {
+                        "language": "ko",
+                        "name": "브루트포스 알고리즘",
+                        "short": "브루트포스 알고리즘"
+                    },
+                    {
+                        "language": "en",
+                        "name": "bruteforcing",
+                        "short": "bruteforce"
+                    },
+                    {
+                        "language": "ja",
+                        "name": "全探索",
+                        "short": "全探索"
+                    }
+                ]
             }
         ]
     },
@@ -7048,6 +7048,48 @@
                         "language": "ja",
                         "name": "最短経路",
                         "short": "最短経路"
+                    }
+                ]
+            },
+            {
+                "key": "dijkstra",
+                "bojTagId": 22,
+                "displayNames": [
+                    {
+                        "language": "ko",
+                        "name": "데이크스트라",
+                        "short": "데이크스트라"
+                    },
+                    {
+                        "language": "en",
+                        "name": "dijkstra's",
+                        "short": "dijkstra's"
+                    },
+                    {
+                        "language": "ja",
+                        "name": "ダイクストラ法",
+                        "short": "ダイクストラ法"
+                    }
+                ]
+            },
+            {
+                "key": "disjoint_set",
+                "bojTagId": 81,
+                "displayNames": [
+                    {
+                        "language": "ko",
+                        "name": "분리 집합",
+                        "short": "분리 집합"
+                    },
+                    {
+                        "language": "en",
+                        "name": "disjoint set",
+                        "short": "dsu"
+                    },
+                    {
+                        "language": "ja",
+                        "name": "素集合データ構造",
+                        "short": "素集合データ構造"
                     }
                 ]
             }
@@ -9047,6 +9089,27 @@
         "level": 7,
         "averageTries": 1.9794,
         "tags": [
+            {
+                "key": "implementation",
+                "bojTagId": 102,
+                "displayNames": [
+                    {
+                        "language": "ko",
+                        "name": "구현",
+                        "short": "구현"
+                    },
+                    {
+                        "language": "en",
+                        "name": "implementation",
+                        "short": "impl"
+                    },
+                    {
+                        "language": "ja",
+                        "name": "実装",
+                        "short": "impl"
+                    }
+                ]
+            },
             {
                 "key": "bruteforcing",
                 "bojTagId": 125,
@@ -12879,6 +12942,27 @@
         "averageTries": 2.1034,
         "tags": [
             {
+                "key": "greedy",
+                "bojTagId": 33,
+                "displayNames": [
+                    {
+                        "language": "ko",
+                        "name": "그리디 알고리즘",
+                        "short": "그리디 알고리즘"
+                    },
+                    {
+                        "language": "en",
+                        "name": "greedy",
+                        "short": "greedy"
+                    },
+                    {
+                        "language": "ja",
+                        "name": "貪欲法",
+                        "short": "貪欲法"
+                    }
+                ]
+            },
+            {
                 "key": "bruteforcing",
                 "bojTagId": 125,
                 "displayNames": [
@@ -12900,23 +12984,23 @@
                 ]
             },
             {
-                "key": "greedy",
-                "bojTagId": 33,
+                "key": "backtracking",
+                "bojTagId": 5,
                 "displayNames": [
                     {
                         "language": "ko",
-                        "name": "그리디 알고리즘",
-                        "short": "그리디 알고리즘"
+                        "name": "백트래킹",
+                        "short": "백트래킹"
                     },
                     {
                         "language": "en",
-                        "name": "greedy",
-                        "short": "greedy"
+                        "name": "backtracking",
+                        "short": "backtrack"
                     },
                     {
                         "language": "ja",
-                        "name": "貪欲法",
-                        "short": "貪欲法"
+                        "name": "バックトラック法",
+                        "short": "バックトラック"
                     }
                 ]
             }
@@ -13136,6 +13220,27 @@
         "level": 7,
         "averageTries": 2.5998,
         "tags": [
+            {
+                "key": "implementation",
+                "bojTagId": 102,
+                "displayNames": [
+                    {
+                        "language": "ko",
+                        "name": "구현",
+                        "short": "구현"
+                    },
+                    {
+                        "language": "en",
+                        "name": "implementation",
+                        "short": "impl"
+                    },
+                    {
+                        "language": "ja",
+                        "name": "実装",
+                        "short": "impl"
+                    }
+                ]
+            },
             {
                 "key": "data_structures",
                 "bojTagId": 175,
@@ -16466,48 +16571,6 @@
         "averageTries": 1.5865,
         "tags": [
             {
-                "key": "data_structures",
-                "bojTagId": 175,
-                "displayNames": [
-                    {
-                        "language": "ko",
-                        "name": "자료 구조",
-                        "short": "자료 구조"
-                    },
-                    {
-                        "language": "en",
-                        "name": "data structures",
-                        "short": "ds"
-                    },
-                    {
-                        "language": "ja",
-                        "name": "データ構造",
-                        "short": "ds"
-                    }
-                ]
-            },
-            {
-                "key": "disjoint_set",
-                "bojTagId": 81,
-                "displayNames": [
-                    {
-                        "language": "ko",
-                        "name": "분리 집합",
-                        "short": "분리 집합"
-                    },
-                    {
-                        "language": "en",
-                        "name": "disjoint set",
-                        "short": "dsu"
-                    },
-                    {
-                        "language": "ja",
-                        "name": "素集合データ構造",
-                        "short": "素集合データ構造"
-                    }
-                ]
-            },
-            {
                 "key": "graphs",
                 "bojTagId": 7,
                 "displayNames": [
@@ -16529,6 +16592,27 @@
                 ]
             },
             {
+                "key": "data_structures",
+                "bojTagId": 175,
+                "displayNames": [
+                    {
+                        "language": "ko",
+                        "name": "자료 구조",
+                        "short": "자료 구조"
+                    },
+                    {
+                        "language": "en",
+                        "name": "data structures",
+                        "short": "ds"
+                    },
+                    {
+                        "language": "ja",
+                        "name": "データ構造",
+                        "short": "ds"
+                    }
+                ]
+            },
+            {
                 "key": "graph_traversal",
                 "bojTagId": 11,
                 "displayNames": [
@@ -16546,6 +16630,27 @@
                         "language": "ja",
                         "name": "グラフの探索",
                         "short": "横断"
+                    }
+                ]
+            },
+            {
+                "key": "disjoint_set",
+                "bojTagId": 81,
+                "displayNames": [
+                    {
+                        "language": "ko",
+                        "name": "분리 집합",
+                        "short": "분리 집합"
+                    },
+                    {
+                        "language": "en",
+                        "name": "disjoint set",
+                        "short": "dsu"
+                    },
+                    {
+                        "language": "ja",
+                        "name": "素集合データ構造",
+                        "short": "素集合データ構造"
                     }
                 ]
             }
@@ -46946,27 +47051,6 @@
         "averageTries": 1.944,
         "tags": [
             {
-                "key": "dijkstra",
-                "bojTagId": 22,
-                "displayNames": [
-                    {
-                        "language": "ko",
-                        "name": "데이크스트라",
-                        "short": "데이크스트라"
-                    },
-                    {
-                        "language": "en",
-                        "name": "dijkstra's",
-                        "short": "dijkstra's"
-                    },
-                    {
-                        "language": "ja",
-                        "name": "ダイクストラ法",
-                        "short": "ダイクストラ法"
-                    }
-                ]
-            },
-            {
                 "key": "graphs",
                 "bojTagId": 7,
                 "displayNames": [
@@ -47005,6 +47089,27 @@
                         "language": "ja",
                         "name": "最短経路",
                         "short": "最短経路"
+                    }
+                ]
+            },
+            {
+                "key": "dijkstra",
+                "bojTagId": 22,
+                "displayNames": [
+                    {
+                        "language": "ko",
+                        "name": "데이크스트라",
+                        "short": "데이크스트라"
+                    },
+                    {
+                        "language": "en",
+                        "name": "dijkstra's",
+                        "short": "dijkstra's"
+                    },
+                    {
+                        "language": "ja",
+                        "name": "ダイクストラ法",
+                        "short": "ダイクストラ法"
                     }
                 ]
             }
@@ -56354,27 +56459,6 @@
         "averageTries": 2.2992,
         "tags": [
             {
-                "key": "greedy",
-                "bojTagId": 33,
-                "displayNames": [
-                    {
-                        "language": "ko",
-                        "name": "그리디 알고리즘",
-                        "short": "그리디 알고리즘"
-                    },
-                    {
-                        "language": "en",
-                        "name": "greedy",
-                        "short": "greedy"
-                    },
-                    {
-                        "language": "ja",
-                        "name": "貪欲法",
-                        "short": "貪欲法"
-                    }
-                ]
-            },
-            {
                 "key": "implementation",
                 "bojTagId": 102,
                 "displayNames": [
@@ -56392,6 +56476,27 @@
                         "language": "ja",
                         "name": "実装",
                         "short": "impl"
+                    }
+                ]
+            },
+            {
+                "key": "greedy",
+                "bojTagId": 33,
+                "displayNames": [
+                    {
+                        "language": "ko",
+                        "name": "그리디 알고리즘",
+                        "short": "그리디 알고리즘"
+                    },
+                    {
+                        "language": "en",
+                        "name": "greedy",
+                        "short": "greedy"
+                    },
+                    {
+                        "language": "ja",
+                        "name": "貪欲法",
+                        "short": "貪欲法"
                     }
                 ]
             },
@@ -59284,27 +59389,6 @@
         "averageTries": 3.3498,
         "tags": [
             {
-                "key": "dfs",
-                "bojTagId": 127,
-                "displayNames": [
-                    {
-                        "language": "ko",
-                        "name": "깊이 우선 탐색",
-                        "short": "깊이 우선 탐색"
-                    },
-                    {
-                        "language": "en",
-                        "name": "depth-first search",
-                        "short": "dfs"
-                    },
-                    {
-                        "language": "ja",
-                        "name": "深さ優先探索",
-                        "short": "dfs"
-                    }
-                ]
-            },
-            {
                 "key": "graphs",
                 "bojTagId": 7,
                 "displayNames": [
@@ -59364,6 +59448,27 @@
                         "language": "ja",
                         "name": "木",
                         "short": "木"
+                    }
+                ]
+            },
+            {
+                "key": "dfs",
+                "bojTagId": 127,
+                "displayNames": [
+                    {
+                        "language": "ko",
+                        "name": "깊이 우선 탐색",
+                        "short": "깊이 우선 탐색"
+                    },
+                    {
+                        "language": "en",
+                        "name": "depth-first search",
+                        "short": "dfs"
+                    },
+                    {
+                        "language": "ja",
+                        "name": "深さ優先探索",
+                        "short": "dfs"
                     }
                 ]
             }
@@ -61555,6 +61660,27 @@
         "averageTries": 3.0211,
         "tags": [
             {
+                "key": "trees",
+                "bojTagId": 120,
+                "displayNames": [
+                    {
+                        "language": "ko",
+                        "name": "트리",
+                        "short": "트리"
+                    },
+                    {
+                        "language": "en",
+                        "name": "tree",
+                        "short": "tree"
+                    },
+                    {
+                        "language": "ja",
+                        "name": "木",
+                        "short": "木"
+                    }
+                ]
+            },
+            {
                 "key": "divide_and_conquer",
                 "bojTagId": 24,
                 "displayNames": [
@@ -61593,27 +61719,6 @@
                         "language": "ja",
                         "name": "再帰",
                         "short": "再帰"
-                    }
-                ]
-            },
-            {
-                "key": "trees",
-                "bojTagId": 120,
-                "displayNames": [
-                    {
-                        "language": "ko",
-                        "name": "트리",
-                        "short": "트리"
-                    },
-                    {
-                        "language": "en",
-                        "name": "tree",
-                        "short": "tree"
-                    },
-                    {
-                        "language": "ja",
-                        "name": "木",
-                        "short": "木"
                     }
                 ]
             }
